@@ -1,0 +1,15 @@
+.container {
+background-image: url(./assets/bodywall3.jpg);
+background-size: auto;
+} 
+
+.pop:hover {
+        transform:translate(5px,10px);
+        transition-duration: 1s;
+      }
+
+.card {
+    background-image: url(./assets/cardback.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}

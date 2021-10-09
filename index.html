@@ -73,25 +73,74 @@
             </div>
         </div>
     </nav>
-    <main class="container">
-        <section class="mt-4">
-            <div class="row justify-content-center">
-              <div class="col-md-6">
-                <div class="input-group flex-nowrap shadow-lg">
-                  <input type="search" class="form-control" placeholder="Search Post" aria-label="Search Post"
-                    aria-describedby="addon-wrapping" onchange="searchTask.apply(this, arguments)" /><span
-                    class="input-group-text" id="addon-wrapping">
-                    <i class="fas fa-search"></i>
-                  </span>
-                </div>
-              </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/sm1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Offers life advice</h5>
+              <p>Facebook users can share knowledge in areas from parenting advice to practical business solutions.</p>
             </div>
-          </section>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/sm0.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Build your online brand</h5>
+              <p>No other social network can offer your business a matching level of potential exposure.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/sm2.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Increases productivity</h5>
+              <p>Short and unobtrusive breaks, such as a quick surf on the internet, enables the mind to rest itself, leading to a higher net total concentration for a day's work and, as a result, increased productivity.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <main class="container mt-2">
         <section>
             <div id="postContentsRow" class="row">
             </div>
         </section>
     </main>
+
+
+
+    <footer>
+        <div class="container-fluid text-center bg-primary p-5 mt-4" id="contact">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col fs-2 my-3 navbar-brand d-flex justify-content-evenly">
+                    <img src="./assets/facebook-logo.png" style = "filter:grayscale()" width="200px" height="100px" class="ms-2">
+                </div>
+                <div class="col fs-2 my-3">
+                    <i class="fab fa-linkedin px-3 btn btn-light"></i>
+                    <i class="fab fa-facebook-square px-3 btn btn-light"></i>
+                    <i class="fab fa-instagram px-3 btn btn-light"></i>
+                    <i class="fab fa-twitter px-3 btn btn-light"></i>
+                </div>
+            </div>
+        </div>
+        <div style="color:white" class="container-fluid text-center p-2 bg-dark">
+           AMAL T S © <a href="https://www.shapeai.tech/" class="link-primary">ShapeAi</a>
+        </div>
+    </footer>
 
 
     <script src="./index.js"></script>

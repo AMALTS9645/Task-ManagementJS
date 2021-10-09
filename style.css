@@ -13,3 +13,13 @@ background-size: auto;
     background-repeat: no-repeat;
     background-size: auto;
 }
+
+.carousel-inner{
+   height: 300px;
+}
+
+.item, img{
+  height: 100% !important;
+  width:  100% !important;
+}
+
